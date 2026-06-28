@@ -38,7 +38,12 @@ class MyApp extends ConsumerWidget {
               ],
             ),
           ),
-          error: (error, stackTrace) => Center(child: Text(error.toString())),
+          error: (error, stackTrace) => Center(
+            child: Text(
+              error.toString(),
+              style: TextStyle(color: Colors.black54),
+            ),
+          ),
           loading: () => Center(child: const CircularProgressIndicator()),
         ),
       ),
