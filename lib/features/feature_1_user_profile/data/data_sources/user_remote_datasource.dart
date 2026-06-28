@@ -1,6 +1,6 @@
 class UserRemoteDatasource {
   //API request---Dio,http,retrofit,firebase etc goes here.
-
+  //This can be local,remote datasource,bluetooth etc
   //Fake API
   Future<Map<String, dynamic>> getUserProfile() async {
     await Future.delayed(const Duration(seconds: 3));
