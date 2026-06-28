@@ -22,22 +22,24 @@ class MyApp extends ConsumerWidget {
     final userState = ref.watch(userProfileProvider);
     return Scaffold(
       appBar: AppBar(title: Center(child: Text('Profile screen'))),
-      body: userState.when(
-        data: (user) => Center(
-          child: Column(
-            children: [
-              Spacer(flex: 1),
-              Text(user.id.toString()),
-              Spacer(flex: 1),
-              Text(user.name),
-              Spacer(flex: 1),
-              Text(user.email),
-              Spacer(flex: 1),
-            ],
+      body: SafeArea(
+        child: userState.when(
+          data: (user) => Center(
+            child: Column(
+              children: [
+                Spacer(flex: 1),
+                Text(user.id.toString()),
+                Spacer(flex: 1),
+                Text(user.name),
+                Spacer(flex: 1),
+                Text(user.email),
+                Spacer(flex: 1),
+              ],
+            ),
           ),
+          error: (error, stackTrace) => Center(child: Text(error.toString())),
+          loading: () => Center(child: const CircularProgressIndicator()),
         ),
-        error: (error, stackTrace) => Center(child: Text(error.toString())),
-        loading: () => Center(child: const CircularProgressIndicator()),
       ),
     );
   }
