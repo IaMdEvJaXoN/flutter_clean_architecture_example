@@ -1,4 +1,5 @@
 //This is the same file as in profile screen-for demonstration purposes.
+//This is just to show how things work but the main.dart and profile screen should not be the same ideally.
 import 'package:flutter/material.dart';
 import 'package:flutter_clean_architecture_example/features/feature_1_user_profile/presentation/controllers/user_profile_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
