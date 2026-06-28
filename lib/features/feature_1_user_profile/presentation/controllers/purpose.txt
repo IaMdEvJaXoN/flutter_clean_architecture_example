@@ -1,0 +1,9 @@
+State management.Controllers listen to user inputs on the UI and execute usecases from the domain layer and enable app updates accordingly.
+Riverpod providers create objects,inject dependencies,hold state and communicate with other providers.
+
+In case of user profile feature--userprofileProvider needs GetProfileUseCase which needs needs the UserRepository which needs UserRepositoryImplemenation that eventually needs the remoteDataSource.
+dependency chain -  Provider-->usecases-->RepositoryInterface-->RepositoryImplemenation-->DataSource
+So eventually,riverpod must create - DataSource-->RepositoryImpl-->RepositoryInterface-->usecase-->Provider-->UI
+
+We mainly use Provider for creating objects eg Provider<UserRepository>,FutureProvider for asynchronous data,NotifierProvider for complex state.
+NotifierProvider is used when we have loading state,errors,actions and mutations(When we have complex state).

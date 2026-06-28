@@ -1,0 +1,4 @@
+This folder defines the rules.It contains pure dart code and business logic.
+This folder knows nothing about API's,databases or flutter.
+This folder defines the contracts,the required data fields(entity) and the user actions(use cases).
+The domain layer describes what the app can do it and not how it does it.

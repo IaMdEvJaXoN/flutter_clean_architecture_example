@@ -1,0 +1,2 @@
+This folder extends the domain entities but adds extra JSON parsing logic(toJson and fromJson).
+Model represents data coming from outside the app.It usually contains JSON and database conversion and serializtion.

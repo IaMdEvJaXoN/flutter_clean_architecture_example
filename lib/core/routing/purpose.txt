@@ -1,0 +1,2 @@
+This folder is for appwide routes and navigation 
+Also holds GoRouter and AutoRoute.

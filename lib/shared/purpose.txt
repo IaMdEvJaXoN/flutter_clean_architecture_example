@@ -1,0 +1,1 @@
+This folder holds business and UI logic that spans across multiple features.

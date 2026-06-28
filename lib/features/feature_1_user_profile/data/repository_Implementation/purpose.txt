@@ -1,0 +1,2 @@
+This folder provides contract implementations for the interface defined in the domain folder's repository folder.
+It orchestrates the data source i.e checks internet connection b4 making a call to the data source(local or remote).

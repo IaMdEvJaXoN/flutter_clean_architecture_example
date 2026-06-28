@@ -1,0 +1,1 @@
+This folder is for the app's visual identity-themedata,colors,typography.

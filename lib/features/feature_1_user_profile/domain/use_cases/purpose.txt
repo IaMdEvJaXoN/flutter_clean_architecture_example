@@ -1,0 +1,3 @@
+This folder has classes which represent single specific user actions.
+These usecases cordinate logic by calling the repository.
+This is where business operations live.

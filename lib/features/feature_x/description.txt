@@ -1,0 +1,1 @@
+The folder structure in this folder is similar to that of feature_1_user_profile.

@@ -1,0 +1,1 @@
+Plain dart classes with fields required in the business logic.This folder unlike the models folder in the data layer/folder has no JSON methods.

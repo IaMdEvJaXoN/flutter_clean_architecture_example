@@ -1,0 +1,3 @@
+The actual full screen goes here.
+A screen is a full page eg login screen,profile screen,settings screen,home screen etc.
+A screen watches providers,reacts to state and arranges widgets.

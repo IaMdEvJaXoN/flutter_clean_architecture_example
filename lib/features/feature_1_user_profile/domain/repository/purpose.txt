@@ -1,0 +1,2 @@
+This folder defines the contracts that the data folder must fulfil.
+Abstract classes that define the possible operations.

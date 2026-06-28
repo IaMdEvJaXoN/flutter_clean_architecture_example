@@ -1,0 +1,1 @@
+This folder holds helper functions,validators like email validators and global constants

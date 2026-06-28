@@ -1,0 +1,1 @@
+This folder has the UI(screens/pages),widgets and controllers/providers.

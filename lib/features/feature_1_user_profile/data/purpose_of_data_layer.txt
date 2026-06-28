@@ -1,0 +1,2 @@
+This folder interacts with the outside world.It knows about API,JSON and databases.
+The job of this folder is to fetch data and hand it over to the domain layer.
